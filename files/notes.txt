@@ -1,15 +1,34 @@
-	git clone clone URL(SSH or Https URL)
+1. download a repo from github.
+	git clone URL(SSH or Https URL)
 		1)generate SSH: 
 		ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 		2)Copy the pub key and paste to Github(setting->SSH and GPG keys->new SSH key)
 2. make some changes and commit
-	1) new file: git add fileName
+	1) add new file to commit list: git add fileName
 	2) updated file
 	3) undo add/update: git reset HEAD fileName
 	4) view the difference between the updated file and before updated files: git diff fileName
-	5) commit the add/update, updated by another people.
+	5) commit the add/update to github: git commit -m "commit description"
+	6) config user email and user name when you commit at first time
+		git config --global user.email "youremaili"
+		git config --global user.name "yourname"
+	7) view commit history: 
+		git log
+		git show CommitID
 3. update local repo
+	git pull
 4. resolve confict
+	1) git pull (Error occured)
+	2) git stash save "save local change to stash log"
+	3) git pull 
+	4) git stash list: check the stash number that your saved in step 2
+	5) git stash apply stash@{#}: use the statsh@{#} to merge with remote repo
+	if confict occurd in the same place
+	6) update the local file mamually
+	7) git add confictfile'
+	8) git reset HEAD confictfilename
 5. work on branch
+	1) Check on which branch: git branch
+	2) Create new branch: git checkout -b branchName //Note which branch you are on now.
+	3) Delete local branch: git branch -D branchName
 6. others: check history, check status, view changes and etc.
-7 otherothers
