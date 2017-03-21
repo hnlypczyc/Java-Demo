@@ -1,5 +1,4 @@
-1. download a repo from github.
-	git clone URL(SSH or Https URL)
+	git clone clone URL(SSH or Https URL)
 		1)generate SSH: 
 		ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 		2)Copy the pub key and paste to Github(setting->SSH and GPG keys->new SSH key)
@@ -13,3 +12,4 @@
 4. resolve confict
 5. work on branch
 6. others: check history, check status, view changes and etc.
+7 otherothers
