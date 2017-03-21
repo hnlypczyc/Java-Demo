@@ -7,7 +7,7 @@
 	2) updated file
 	3) undo add/update: git reset HEAD fileName
 	4) view the difference between the updated file and before updated files: git diff fileName
-	5) commit the add/update to github
+	5) commit the add/update, updated by another people.
 3. update local repo
 4. resolve confict
 5. work on branch
