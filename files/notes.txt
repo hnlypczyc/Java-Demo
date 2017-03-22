@@ -4,8 +4,8 @@
 		ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 		2)Copy the pub key and paste to Github(setting->SSH and GPG keys->new SSH key)
 2. make some changes and commit
-	1) add new file to commit list: git add fileName
-	2) updated file
+	1) view the add/update files by user: git status
+	2) add new file to commit list: git add fileName
 	3) undo add/update: git reset HEAD fileName
 	4) view the difference between the updated file and before updated files: git diff fileName
 	5) commit the add/update to github: git commit -m "commit description"
