@@ -28,7 +28,9 @@
 	7) git add confictfile'
 	8) git reset HEAD confictfilename
 5. work on branch
-	1) Check on which branch: git branch
-	2) Create new branch: git checkout -b branchName //Note which branch you are on now.
-	3) Delete local branch: git branch -D branchName
+	1) View the current branch: git branch
+	2) Create new branch: git branch branchName
+	3) Navigate to the specify branch: git checkout branchName
+	4) Create new branch and navigate to this new branch : git checkout -b branchName
+	4) Delete local branch: git branch -D branchName
 6. others: check history, check status, view changes and etc.
