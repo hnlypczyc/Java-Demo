@@ -35,3 +35,4 @@
 	4) Create new branch and navigate to this new branch : git checkout -b branchName
 	4) Delete local branch: git branch -D branchName
 6. others: check history, check status, view changes and etc.
+7.
