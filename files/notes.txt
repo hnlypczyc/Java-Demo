@@ -15,6 +15,7 @@
 	7) view commit history: 
 		git log
 		git show CommitID
+	8) Push your changes to gitHub: git Push
 3. update local repo
 	git pull
 4. resolve confict
