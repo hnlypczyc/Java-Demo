@@ -1,0 +1,3 @@
+ClassName = cn.nancy.Reflect.Person
+MethodName = Sleep
+Argument1 = Pear
