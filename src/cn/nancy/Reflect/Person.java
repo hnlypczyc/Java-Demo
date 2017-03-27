@@ -1,4 +1,4 @@
-package cn.nancy.Reflect;
+package cn.nancy.reflect;
 
 public class Person {
 

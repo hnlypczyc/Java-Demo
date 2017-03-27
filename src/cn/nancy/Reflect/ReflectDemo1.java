@@ -1,4 +1,4 @@
-package cn.nancy.Reflect;
+package cn.nancy.reflect;
 
 import java.io.FileReader;
 import java.lang.reflect.Constructor;
