@@ -1,0 +1,14 @@
+﻿1. 插件安装： 将插件解压到eclipse下dropins目录下。
+2. 快捷键
+	a. alt+/: 内容辅助键；（在keys里面设置content assistant: Edit in Java source）
+		main方法： main+alt+/ 回车即可
+		输出语句： syso+alt+/
+		提示作用：
+	b. ctrl + shift + f: format
+	c. ctrl + shift + o: import package
+	d. ctrl + shift + / : comment multiple lines(ctrl+/: 		comment single line)
+	e. alt + 上/下箭头: move the code up or down.
+	f. F3 or Ctrl+ click the mouse: view the srouce code
+	g. alt + shift + s + o 生成带参数构造方法
+	h. alt + shift + s + c 生成无参构造方法
+	i. alt + shift + s + r 生成get/set方法
