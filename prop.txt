@@ -1,0 +1,6 @@
+#Update the wangwu`s value to 100 
+#Wed Apr 19 11:56:19 CST 2017
+wagnwu=100
+zhangsan=1
+zhaoliu=3
+wangwu=100

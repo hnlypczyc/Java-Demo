@@ -1,0 +1,32 @@
+字节流
+	InputStream 
+		int read（）：一次读取一个字节
+		int read(byte[] bys): 一次读取一个字节数组
+		
+		FileInputStream
+		BufferedInputStream
+	OutputStream
+		writer(int by):一次写一个字节
+		writer(byte[] bys,int i, int len): 一次写一个字节数组的一部分
+		
+		FileOutputStream
+		BufferedOutputStream
+		
+字符流: 字节流+编码表
+	Reader (InputStream in)
+		int read(): 一次读取一个字符
+		int read(char[] chars): 一次读取一个字符数组
+		
+		InputStreamReader
+		FileReader
+		BufferedReader
+			String readLine();
+	Writer(OutputStream)
+		writer(int ch):一次写一个字符
+		writer(char[] chars，int i, len):一次写一个字符数组的一部分
+		
+		OutputStreamWriter
+		FileWriter
+		BufferedWriter
+			void newLine:写换行符
+			void writer(String s):一次写一个字符串
